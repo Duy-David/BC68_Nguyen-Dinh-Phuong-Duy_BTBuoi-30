@@ -1,0 +1,17 @@
+$bgcolor: rgb(248, 249, 250);
+$bgcolor-btn:#0d6efd;
+$bgcolor-btn-hover:#0a58ca;
+
+#banner {
+  .container {
+    .rounded-md {
+      background: $bgcolor;
+      .btn{
+        background-color: $bgcolor-btn;
+        &:hover{
+            background-color: $bgcolor-btn-hover ;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+header{
+ .item{
+    #home{
+        opacity: 1;
+    }
+    a{
+        opacity: 0.5;
+        &:hover{
+            transition: all 0.5s;
+            opacity: 0.75;
+        }
+    }
+ }   
+}
