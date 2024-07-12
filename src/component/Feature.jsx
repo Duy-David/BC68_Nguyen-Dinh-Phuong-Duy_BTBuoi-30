@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <div id="feature" className="pt-6 pb-12">
       <div className="container mx-auto w-10/12 px-12">
-        <div className="grid grid-cols-2  gap-12">
+        <div className="grid  gap-12">
           <div className=" mb-3 h-full border-spacing-0  ">
             <div className="p-12 text-center pt-0 feature-item rounded-lg">
               <span className="mb-6 feature-icon text-white   ">

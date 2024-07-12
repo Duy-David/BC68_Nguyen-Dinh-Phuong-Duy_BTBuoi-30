@@ -3,9 +3,16 @@ $bgcolor-btn:#0d6efd;
 $bgcolor-btn-hover:#0a58ca;
 
 #banner {
-  .container {
-    .rounded-md {
+  .container,.px-12{
+    @media screen and (max-width: 992px){
+      padding: 0;
+    }
+    .rounded-md,.p-12 {
       background: $bgcolor;
+      @media screen and (max-width: 992px){
+        padding: 0;
+        
+      }
       .btn{
         background-color: $bgcolor-btn;
         &:hover{
